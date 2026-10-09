@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files"><UniqueIdentifier>{55B3C588-2B73-4AF9-AFA6-F39787345BBC}</UniqueIdentifier><Extensions>cpp;c;cc;cxx</Extensions></Filter>
+    <Filter Include="Header Files"><UniqueIdentifier>{EB532B63-D1BA-4DCC-A6C5-CFA02DA0BAE0}</UniqueIdentifier><Extensions>h;hpp;hxx</Extensions></Filter>
+    <Filter Include="SDK"><UniqueIdentifier>{AC4B72A2-8C16-474B-BDB3-F79AE6F691A4}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ColorLog.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\logcolors.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="src\logcolorparser.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\logcolors.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="src\logcolorparser.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="sdk\modtools_plugin.h"><Filter>SDK</Filter></ClInclude>
+    <ClInclude Include="sdk\modtools_plugin.hpp"><Filter>SDK</Filter></ClInclude>
+  </ItemGroup>
+</Project>
