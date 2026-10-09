@@ -1,5 +1,9 @@
 # Color Log for BO3 Mod Tools
 
+## Preview
+
+![Color Log preview](assets/test.png)
+
 Color Log is an MTPlugins plugin for the Black Ops III Mod Tools Launcher. It adds native Call of Duty inline colors to launcher build output while preserving the existing launcher console and build workflow.
 
 ## Features
