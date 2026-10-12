@@ -9,4 +9,3 @@ namespace logcolors
     void Shutdown();
     bool Command(const std::string& command, std::string& reply);
 }
-

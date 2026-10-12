@@ -44,10 +44,10 @@ extern "C" MODTOOLS_PLUGIN_EXPORT const ModToolsPluginApi* ModToolsPluginEntry(M
     api.apiVersion = MODTOOLS_PLUGIN_API_VERSION;
     api.name = "ColorLog";
     api.displayName = "Color Log";
-    api.version = "1.0.0";
+    api.version = "1.0.1";
     api.author = "GimmCity";
-    api.description = "Adds native ^0-^7 colors and diagnostic highlighting to the BO3 Mod Tools Launcher output.";
-    api.url = "https://github.com/GimmCity/MTPlugins-ColorLog";
+    api.description = "Colors warnings and errors, counts them, and navigates diagnostics in the stock BO3 Mod Tools Launcher console.";
+    api.url = "https://github.com/gimmcity/MTPlugins-ColorLog";
     api.OnLoad = OnLoad;
     api.OnUnload = OnUnload;
     api.OnTick = OnTick;
